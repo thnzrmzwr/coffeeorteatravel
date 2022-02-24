@@ -1,0 +1,292 @@
+[28-Jan-2022 22:26:50 Asia/Karachi] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 208
+[28-Jan-2022 22:26:50 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 209
+[28-Jan-2022 22:26:50 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 210
+[28-Jan-2022 22:27:37 Asia/Karachi] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 208
+[28-Jan-2022 22:27:37 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 209
+[28-Jan-2022 22:27:37 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 210
+[28-Jan-2022 22:27:42 Asia/Karachi] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 208
+[28-Jan-2022 22:27:42 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 209
+[28-Jan-2022 22:27:42 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 210
+[28-Jan-2022 22:28:06 Asia/Karachi] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 208
+[28-Jan-2022 22:28:06 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 209
+[28-Jan-2022 22:28:06 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 210
+[28-Jan-2022 22:28:22 Asia/Karachi] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 208
+[28-Jan-2022 22:28:22 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 209
+[28-Jan-2022 22:28:22 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/coffee857/public_html/function/web_function.php on line 210
+[28-Jan-2022 22:29:45 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:29:46 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:30:03 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:42:49 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:42:49 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/en/partials/nc.php on line 8
+[28-Jan-2022 22:44:09 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:44:09 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/en/partials/nc.php on line 8
+[28-Jan-2022 22:44:26 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:44:26 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/en/partials/nc.php on line 8
+[28-Jan-2022 22:45:03 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:45:03 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/en/partials/nc.php on line 9
+[28-Jan-2022 22:45:27 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:46:20 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[28-Jan-2022 22:51:07 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 08:25:40 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 08:25:40 Asia/Karachi] PHP Fatal error:  Call to undefined function GetOfferListCountry() in /home/coffee857/public_html/en/partials/nc.php on line 7
+[29-Jan-2022 08:27:16 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 08:27:16 Asia/Karachi] PHP Fatal error:  Call to undefined function GetOfferListCountry() in /home/coffee857/public_html/en/partials/nc.php on line 7
+[29-Jan-2022 10:03:39 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 10:03:39 Asia/Karachi] PHP Fatal error:  Call to undefined function GetOfferListCountry() in /home/coffee857/public_html/en/partials/nc.php on line 7
+[29-Jan-2022 10:04:12 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 10:04:12 Asia/Karachi] PHP Fatal error:  Call to undefined function GetOfferListCountry() in /home/coffee857/public_html/en/partials/nc.php on line 7
+[29-Jan-2022 10:04:20 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 10:07:59 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 10:14:31 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 10:15:00 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:05:26 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:09:43 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:11:43 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:12:50 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:13:23 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:16:17 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:23:00 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 15:26:37 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 16:00:47 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 16:02:33 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 16:02:54 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 16:03:19 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 16:04:08 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:03:31 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:04:31 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:04:35 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:06:06 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:09:46 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:09:51 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:14:23 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 17:17:38 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 22:16:37 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 22:16:37 Asia/Karachi] PHP Fatal error:  Call to undefined function SafPageDetailsSmartSQL() in /home/coffee857/public_html/en/partials/nc.php on line 39
+[29-Jan-2022 22:16:40 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[29-Jan-2022 22:16:40 Asia/Karachi] PHP Fatal error:  Call to undefined function SafPageDetailsSmartSQL() in /home/coffee857/public_html/en/partials/nc.php on line 39
+[29-Jan-2022 22:18:27 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 04:47:31 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 04:48:35 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 04:48:44 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 04:49:51 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 04:50:38 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:19:03 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:20:22 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:20:37 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:24:28 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:25:45 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:26:09 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 09:26:42 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[30-Jan-2022 14:02:13 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 02:45:39 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:28:33 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:28:33 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:28:33 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:30:23 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:30:23 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:30:23 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:32:57 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:32:57 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:32:57 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:33:43 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:33:43 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:33:43 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:34:02 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:34:02 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:34:02 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:35:23 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:35:23 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:35:23 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:35:42 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:35:42 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:35:42 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:35:46 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:35:46 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:35:46 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:39:18 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:41:22 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:41:22 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:41:22 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:42:03 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:42:03 Asia/Karachi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/coffee857/public_html/function/web_function.php on line 3794
+[01-Feb-2022 05:42:03 Asia/Karachi] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/coffee857/public_html/function/web_function.php on line 3795
+[01-Feb-2022 05:42:24 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:44:20 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:46:00 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:46:00 Asia/Karachi] PHP Warning:  print_r(): Couldn't fetch mysqli_result in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:46:00 Asia/Karachi] PHP Warning:  print_r(): Couldn't fetch mysqli_result in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:46:00 Asia/Karachi] PHP Warning:  print_r(): Property access is not allowed yet in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:46:00 Asia/Karachi] PHP Warning:  print_r(): Couldn't fetch mysqli_result in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:46:00 Asia/Karachi] PHP Warning:  print_r(): Property access is not allowed yet in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:47:42 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:47:42 Asia/Karachi] PHP Warning:  print_r(): Couldn't fetch mysqli_result in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:47:42 Asia/Karachi] PHP Warning:  print_r(): Couldn't fetch mysqli_result in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:47:42 Asia/Karachi] PHP Warning:  print_r(): Property access is not allowed yet in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:47:42 Asia/Karachi] PHP Warning:  print_r(): Couldn't fetch mysqli_result in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:47:42 Asia/Karachi] PHP Warning:  print_r(): Property access is not allowed yet in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 05:49:21 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:49:49 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:49:51 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:49:53 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:50:16 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:52:14 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:54:14 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:57:09 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:59:23 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 05:59:32 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 06:00:05 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 06:02:38 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 06:03:41 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 06:05:46 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 06:06:27 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:44:42 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:49:56 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:50:43 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:51:57 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:53:53 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:55:19 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 07:55:38 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:02:26 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:02:30 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:03:18 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:05:01 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:08:06 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:08:27 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:11:21 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:13:05 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:13:05 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/function/web_function.php on line 3802
+[01-Feb-2022 08:13:05 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/function/web_function.php on line 3802
+[01-Feb-2022 08:13:05 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/function/web_function.php on line 3802
+[01-Feb-2022 08:13:33 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:14:49 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:16:04 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:16:04 Asia/Karachi] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/coffee857/public_html/en/partials/nc.php on line 25
+[01-Feb-2022 08:16:30 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:16:51 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 08:17:06 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3805
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:18:51 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3805
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:36 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3805
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:19:39 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3805
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:16 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3805
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:19 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:20:46 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:25 Asia/Karachi] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/coffee857/public_html/function/web_function.php on line 3811
+[01-Feb-2022 11:21:51 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:23:15 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:25:03 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:25:32 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:25:34 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:25:50 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:26:09 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[01-Feb-2022 11:33:38 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[02-Feb-2022 05:51:04 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[02-Feb-2022 05:52:58 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[02-Feb-2022 20:27:04 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6
+[03-Feb-2022 06:22:59 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/coffee857/public_html/mysql/mysql.php on line 6

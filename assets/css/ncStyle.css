@@ -1,0 +1,357 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/* navbar and header */
+header{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.5799999833106995px;
+}
+.logo{
+    width:89px;
+    height:89px;
+    margin:auto;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+.navbar a{
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+/* utilities */
+header, a, body{
+    font-family: Montserrat;
+}
+.pointer{
+    cursor: pointer;
+}
+.fw-semi{
+    font-weight: 500;
+}
+.d-flex{
+    display:flex;
+}
+.bg-theme-color{
+    background-color: #161616;
+}
+.bg-theme-color-7{
+    background-color: #161616e8;
+}
+.bg-theme-color-6{
+    background-color: #1A1A1A;
+}
+.bgimg{
+    position:relative;
+    top:0px;
+    width:100%;
+    height:50vh;
+    object-fit: cover;
+    object-position: center;
+}
+.bgimgoverlay-full{
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 50vh;
+}
+.flex-center-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.theme-gradient-bt {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.31%, #161616 100%);
+}
+.text-ncs-light{
+    color: #ABABAB;
+}
+.text-ncs-coffee-light{
+    color: #464646;
+}
+.ncs-small{
+    font-size: .775em;
+}
+.nc-rounded{
+    border-radius: 30px;
+}
+.pt-23{
+    padding-top:220.8px;
+}
+.pt-13{
+    padding-top:124.8px;
+}
+.py-13{
+    padding: 124.8px 0px;
+}
+.pe-p60{
+    padding-right: 60%;
+}
+.h-2{
+    min-height: 2px;
+}
+.h-50p{
+    min-height: 50px;
+}
+.h-100{
+    min-height: 100px;
+}
+.hmx-180, .h-180{
+    height: 180px;
+}
+.h-250{
+    height: 250px;
+}
+.h-270{
+    height: 270px;
+}
+.h-full{
+    height:100%;
+}
+.width-full{
+    width: 100%;
+}
+@media only screen and (min-width:576px){
+    .pt-sm-23{
+        padding-top:220.8px;
+    }
+    .h-sm-full{
+        height:100%
+    }
+    .h-sm-250{
+        height: 250px;
+    }
+    .h-sm-270{
+        height: 270px;
+    }
+    .pt-sm-13{
+        padding-top:124.8px !important;
+    }
+    .width-sm-unset{
+        width: unset !important;
+    }
+}
+@media only screen and (min-width:768px){
+    .pt-md-23{
+        padding-top:220.8px;
+    }
+    .h-md-full{
+        height:100%
+    }
+    .h-md-250{
+        height: 250px;
+    }
+    .h-md-270{
+        height: 270px;
+    }
+    .pt-md-13{
+        padding-top:124.8px;
+    }
+}
+@media only screen and (min-width:992px){
+    .py-lg-13{
+        padding: 124.8px 0px !important;
+    }
+}
+@media only screen and (min-width:1200px){
+    .pt-xl-23{
+        padding-top:220.8px;
+    }
+    .h-xl-full{
+        height:100%
+    }
+    .h-xl-250{
+        height: 250px;
+    }
+    .h-xl-270{
+        height: 270px;
+    }
+    .pt-xl-13{
+        padding-top:124.8px;
+    }
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-coffee {
+    background-image: url(../img/agoodone2.png);
+    background-color: #161616b5;
+    mix-blend-mode: multiply;
+}
+.bg-next-trips{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.15%, #161616 100%),url(../img/next-trips.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-sigiriya-arial{
+    background-image: url(../img/sigiriya-arial.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-sl-beach{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 52.15%, #161616 100%), url(../img/sl-beach.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-elephant-group-bath{
+    background-image: url(../img/elephant-group-bath.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.center-cover{
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.bg-our-stories{
+    background-image: url(../img/ele.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-maldives-hotels{
+    background-image: linear-gradient(#fff0 0%, #fff0 50%, #161616),url(../img/maldives-hotel.jpg);
+}
+.bg-maldives-attractions{
+    background-image: linear-gradient(#fff0 0%, #fff0 50%, #161616),url(../img/maldives-attraction.jpg);
+}
+.bg-maldives-resorts{
+    background: linear-gradient(#fff0 0%, #fff0 50%, #161616), url(../img/pexels-asad-photo-maldives-1483053.jpg);
+    background-position: bottom !important;
+}
+.bg-bottom-cover{
+    background-size: cover !important;
+    background-position: bottom !important;
+}
+.bg-sl-attractions{
+    background-image: url(../img/sigiriya-arial.jpg);
+}
+.bg-maldives-tours{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.15%, #161616 100%), url(../img/maldives-tours.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-sri-lanka-tours{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.15%, #161616 100%), url(../img/pexels-elina-sazonova-4403957.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.bg-sl-upcoming-tours{
+    background: linear-gradient(#fff0 0%, #fff0 0%, #161616), url(../img/3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-maldives-upcoming-tours{
+    background-image: url(../img/water-bungalows-and-wooden-jetty-on-maldives-.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.bg-cyoh{
+    background:linear-gradient(#fff0 0%, #fff0 0%, #161616), url(../img/pexels-kanishka-ranasinghe-4169727.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-sl-attractions-hero{
+    background: linear-gradient(#fff0 0%, #fff0 0%, #161616), url(../img/pexels-genine-alyssa-pedrenoandrada-2403209.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.bg-about-us{
+    background: linear-gradient(#fff0 0%, #fff0 0%, #161616), url(../img/pexels-quang-nguyen-vinh-2161449.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nc-1300{
+    display: none;
+}
+.dark-blend{
+    background-color: #00000069;
+    background-blend-mode: overlay;
+}
+@media only screen and (max-width:1300px) {
+    .nc-1300{
+        display: block;
+    }
+}
+/* owl carousel */
+.objfit-500{
+    height: 500px;
+    object-fit: cover;
+}
+.owl-prev span, .owl-next span{
+  position: absolute;
+  color: white;
+  font-size: 4vw;
+  top: 35%;
+  background-color: #000000a3;
+  border-radius: 50vw;
+  height: 105px;
+  width: 105px;
+  display: flex;
+  justify-content: center;
+  transform: scale(0.4);
+}
+.owl-prev span {
+    left: -1%;
+}
+.owl-next span {
+    right: -1%;
+}
+.b-dark-gradient{
+    background: linear-gradient(180deg, rgba(22, 22, 22, 0) 60.48%, #161616 100%);
+}
+.b-tb-gradient {
+    background: linear-gradient(180deg, rgba(22, 22, 22, 0.64) 0%, rgba(51,51,51,0.45840342973126746) 85%, rgba(255,255,255,0) 100%);
+    transition: background .6s ease, transform .6s;
+    transform: translateY(430px);
+  }
+.owl-item:hover .b-tb-gradient{
+    transform: translateY(350px);
+}
+.owl-item:hover .nc-block{
+    display: block !important;
+}
+.nc-block{
+    display: none;
+}
+/*accordion*/
+.accordion-button.fw-semi {
+    background-color: #161616;
+    color: white;
+}
+/*animate display none block*/
+.scale0{
+    transform: scale(0);
+}
+.animate-none {
+    transform: scale(0);
+    transition: transform 0.4s ease-in-out;
+}
+.animate-block{
+    transform: scale(1) !important;
+    transition: transform 0.6s ease-in-out;
+}
+/* footer */
+.footer-coffee{
+    background: url(../img/agoodone2.png),linear-gradient(180deg, #161616 0%, #000000 63.09%, #000000 100%);
+    background-blend-mode: multiply;
+}
+
+.WidgetTitle__Header-sc-slet0i-2.bTtiSe {
+    display: none;
+}
+/*fixes*/
+.accordion-warning:after{
+    filter: invert(42%) sepia(93%) saturate(1000%) hue-rotate(30deg) brightness(1000%) contrast(110%);
+}
+.accordion-warning:focus{
+    border-color: none;
+    box-shadow: none;
+}
