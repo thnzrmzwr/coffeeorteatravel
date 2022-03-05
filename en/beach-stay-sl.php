@@ -49,7 +49,7 @@ ncheader(3, $menu, $weblink);?>
                                 <span class="d-block mt-2"><?=  substr_replace($product['ProductHighlight'], "...", 180) ?></span></p>
                         </div>
                         <div class="card-footer bg-secondary">
-                            <a href="https://www.coffeeorteatravel.com/en/resort-single.php?resortid=<?= $product['ProductID'] ?>&country=183" class="btn btn-outline-warning btn-sm float-end">View Resort</a>
+                            <a href="<?php echo $inside_pages['Resort'] ?>/sri-lanka/<?= $product['ProductID'] ?>" class="btn btn-outline-warning btn-sm float-end">View Resort</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ ncheader(3, $menu, $weblink);?>
         </div>
     </div>
 </div>
-<?php ncfooter(3, $menu, $weblink); ?>
+<?php ncfooter(3, $menu,$weblink, $footerData); ?>
 <script>
 $(document).ready(function(){
     $('.carousel-se1').owlCarousel({

@@ -18,9 +18,9 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
                     <?php $mPtags =ProductTagListByCountry($db_elegantp,$CountryID=121);
                     for($i=0; count($mPtags)>$i; $i++){ ?>
                     <div class="card border border-secondary">
-                        <img src="assets/img/maldives-hotel.jpg" alt="" class="card-img-top hmx-180 center-cover">
+                        <img src="<?= $weblink ?>assets/img/maldives-hotel.jpg" alt="" class="card-img-top hmx-180 center-cover">
                         <div class="card-body bg-theme-color-7">
-                            <a href="<?php echo $inside_pages['Resorts Archive'].'?country-resort='.$CountryID.'&r-tag='.$mPtags[$i]['TagsTitle']; ?>" class="text-decoration-none">
+                            <a href="<?php echo $inside_pages['Resorts Archive'].'/maldives/'.$mPtags[$i]['TagsTitle']; ?>" class="text-decoration-none">
                                 <h5 class="card-title text-center text-light"><?= $mPtags[$i]['TagsTitle'] ?></h5>
                             </a>
                         </div>
@@ -31,7 +31,7 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card bg-theme-color text-light border-light" style="height:246px">
                     <div class="card-body flex-center">
-                        <a class="text-decoration-none text-light" href="<?php echo $inside_pages['Resorts Archive'].'?country-resort='.$CountryID.'&r-tag='.$mPtags[$i]['TagsTitle']; ?>">
+                        <a class="text-decoration-none text-light" href="<?php echo $inside_pages['Resorts Archive'].'/maldives/'.$mPtags[$i]['TagsTitle']; ?>">
                             <h5 class="card-title text-center">Explore Resorts...</h5>
                         </a>
                     </div>
@@ -53,9 +53,9 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
                     <?php $cats =getActiveTourPackageCategories($db_sqli,$CountryID=121);
                     foreach($cats as $id=>$catNm){ ?>
                     <div class="card border border-secondary h-270">
-                        <img src="assets/img/maldives-hotel.jpg" alt="" class="card-img-top hmx-180 center-cover">
+                        <img src="<?= $weblink ?>assets/img/maldives-hotel.jpg" alt="" class="card-img-top hmx-180 center-cover">
                         <div class="card-body bg-theme-color-7">
-                            <a href="<?= $weblink.'tour-category.php?country-tour='.$CountryID.'&tour-cat='.$catNm ?>" class="text-decoration-none">
+                            <a href="<?= $inside_pages['Tour Category'].'/maldives/'.str_replace(' ','-',$catNm) ?>" class="text-decoration-none">
                                 <h5 class="card-title text-center text-light"><?= $catNm ?></h5>
                             </a>
                         </div>
@@ -87,7 +87,7 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
                     </div>
                     <div class="card-footer bg-secondary">
                         <span class="ncs-small">From: <span class="fw-bold">US$<?= $tourPackages[$i]['TourPackagePrice'];?></span></span>
-                        <a href="<?= $weblink.'tour-package-single.php?tourpackageid='.$tourPackages[$i]['TourPackageID'] ?>" class="btn btn-outline-warning btn-sm float-end">View Details</a>
+                        <a href="<?= $inside_pages['Tour Package'].'/'.$tourPackages[$i]['TourPackageID'] ?>" class="btn btn-outline-warning btn-sm float-end">View Details</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
         <div class="row py-3">
             <div class="col-12 col-sm-4 px-0">
                 <div class="card bg-dark text-light">
-                    <img src="assets/img/pexels-markus-spiske-3970330.jpg" class="card-img h-270" alt="...">
+                    <img src="<?= $weblink ?>assets/img/pexels-markus-spiske-3970330.jpg" class="card-img h-270" alt="...">
                     <div class="card-img-overlay dark-blend flex-center">
                         <h5 class="card-title fw-bold text-center">Actual pandemic restrictions on unesco</h5>
                     </div>
@@ -132,7 +132,7 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
             </div>
             <div class="col-12 col-sm-4 px-0">
                 <div class="card bg-dark text-light">
-                    <img src="assets/img/pexels-oscar-chan-2833379.jpg" class="card-img h-270" alt="...">
+                    <img src="<?= $weblink ?>assets/img/pexels-oscar-chan-2833379.jpg" class="card-img h-270" alt="...">
                     <div class="card-img-overlay dark-blend flex-center">
                         <h5 class="card-title fw-bold text-center">Actual pandemic restrictions during flights</h5>
                     </div>
@@ -140,7 +140,7 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
             </div>
             <div class="col-12 col-sm-4 px-0">
                 <div class="card bg-dark text-light">
-                    <img src="assets/img/pexels-kanishka-ranasinghe-2751667.jpg" class="card-img h-270" alt="...">
+                    <img src="<?= $weblink ?>assets/img/pexels-kanishka-ranasinghe-2751667.jpg" class="card-img h-270" alt="...">
                     <div class="card-img-overlay dark-blend flex-center">
                         <h5 class="card-title fw-bold text-center">Actual pandemic situation and visa</h5>
                     </div>
@@ -163,7 +163,7 @@ $tourPackages = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCountr
 
     </div>
 </div>
-<?php ncfooter(3, $menu, $weblink); ?>
+<?php ncfooter(3, $menu,$weblink, $footerData); ?>
 <script>
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({

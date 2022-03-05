@@ -1,7 +1,12 @@
 <?php include 'partials/templates.php';
-if(isset($_GET['country-tour']) && is_numeric($_GET['country-tour'])){
-    $country = $_GET['country-tour'];
-    $gtag = $_GET['tour-cat'];
+if(isset($_GET['country-tour']) && !empty($_GET['country-tour'])){
+    $countryName = strtolower($_GET['country-tour']);
+    if($countryName=='maldives'){
+      $country=121;
+    }else{
+      $country =183;
+    }
+    $gtag = str_replace('-',' ',$_GET['tour-cat']);
 }else{
    exit;
 }
@@ -71,7 +76,7 @@ $cats =getActiveTourPackageCategories($db_sqli,$country); ?>
         </div>
     </div>
 </div>
-<?php ncfooter(3, $menu, $weblink); ?>
+<?php ncfooter(3, $menu,$weblink, $footerData); ?>
 <script>
     function resortFilter(elem, selValue){
   var resorts = document.querySelectorAll('.resort-card');

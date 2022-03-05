@@ -1,6 +1,11 @@
 <?php include 'partials/templates.php';
-if(isset($_GET['country-resort']) && is_numeric($_GET['country-resort'])){
-    $country = $_GET['country-resort'];
+if(isset($_GET['country-resort']) && !empty($_GET['country-resort'])){
+    $countryName = strtolower($_GET['country-resort']);
+    if($countryName=='maldives'){
+      $country=121;
+    }else{
+      $country =183;
+    }
     $gtag = $_GET['r-tag'];
 }else{
     exit;
@@ -48,7 +53,7 @@ $tagsTi = array_unique($tagsT); ?>
                     </div>
                     <div class="card-footer bg-secondary">
                         <span class="float-start ncs-small"><?= ($resortsA[$rc]['ProductIslandCity']) ? 'City: '.strtolower($resortsA[$rc]['ProductIslandCity']) : ''; ?></span>
-                        <a href="<?= $weblink.'resort-single.php?resortid='.$resortsA[$rc]['ProductID'].'&country='.$country ?>" class="btn btn-outline-warning btn-sm float-end">View Resort</a>
+                        <a href="<?php echo $inside_pages['Resort'].'/'; echo ($country==183)?'sri-lanka/'.$resortsA[$rc]['ProductID']:'maldives/'.$resortsA[$rc]['ProductID']; ?>" class="btn btn-outline-warning btn-sm float-end">View Resort</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +66,7 @@ $tagsTi = array_unique($tagsT); ?>
         </div>
     </div>
 </div>
-<?php ncfooter(3, $menu, $weblink); ?>
+<?php ncfooter(3, $menu,$weblink, $footerData); ?>
 <script>
     function resortFilter(elem, selValue){
   var resorts = document.querySelectorAll('.resort-card');

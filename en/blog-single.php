@@ -53,7 +53,7 @@ $blog = BlogNewsList($db_elegantp,$Limit=null,$ORDERBY='fldNewsCreatedDateTime')
                         <div class="card-footer bg-secondary">
                             <span class="text-end"><i class="fas fa-calendar-alt me-2"></i><?php $date = new DateTime($blog[$i]['NewsCreatedDateTime']);
                             echo $date->format("Y-m-d"); ?></span>
-                            <a href="<?= $weblink.'blog-single.php?blogid='.$blog[$i]['NewsID'] ?>" class="btn btn-outline-light btn-sm float-end">View Details</a>
+                            <a href="<?= $weblinkClean.'our-story/'.$blog[$i]['NewsSEOURL'].'/'.$blog[$i]['NewsID'] ?>" class="btn btn-outline-light btn-sm float-end">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -62,4 +62,4 @@ $blog = BlogNewsList($db_elegantp,$Limit=null,$ORDERBY='fldNewsCreatedDateTime')
         </div>
     </div>
 </div>
-<?php ncfooter(1, $menu, $weblink); ?>
+<?php ncfooter(1, $menu,$weblink, $footerData); ?>

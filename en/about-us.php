@@ -2,7 +2,7 @@
 $paged = PageDetails($db_elegantp,1);
 $para = explode("</p>", $paged['PageTextHTML']);
 ?>
-<?php ncheader(2, $menu, $weblink); ?>
+<?php ncheader(2, $menu,$weblink, $footerData); ?>
 <div class="container-fluid text-light bg-theme-color">
     <div class="row bg-about-us pt-sm-13">
         <div class="col px-3 px-sm-5 pt-23">
@@ -60,4 +60,4 @@ $para = explode("</p>", $paged['PageTextHTML']);
         </div>
     </div>
 </div>
-<?php ncfooter(2, $menu, $weblink); ?>
+<?php ncfooter(2, $menu, $weblink, $footerData); ?>

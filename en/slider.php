@@ -15,12 +15,7 @@
     <!-- slider start -->
     <div class="app">
         <div class="ncrow">
-            <div class="nccol-2">
-                <span>Choose your dream destination</span>
-                <h2 class="mt-1 lh-base fw-bold">Pick your tailor-made holiday or beach stay and our travel experts will take care of every tiny detail for you. You can just order a cup of coffee or tea and enjoy the mystic and majestic experience the little exotic island will cast on you.</h2>
-                <a href="#" class="btn btn-outline-light mt-3">Explore</a>
-            </div>
-            <div class="nccol-8 app">
+            <div class="nccol app">
                 <div class="cardList">
                     <button class="cardList__btn btn btn--left">
                         <div class="icon">
@@ -32,17 +27,17 @@
                     <div class="cards__wrapper">
                         <div class="card current--card">
                             <div class="card__image">
-                                <img src="<?php echo $weblink; ?>assets/img/1.jpeg">
+                                <img src="<?php echo $weblink; ?>assets/img/3.jpeg">
                             </div>
                         </div>
                         <div class="card next--card">
                             <div class="card__image">
-                                <img src="<?php echo $weblink; ?>assets/img/2.jpeg">
+                                <img src="<?php echo $weblink; ?>assets/img/1.jpeg">
                             </div>
                         </div>
                         <div class="card previous--card">
                             <div class="card__image">
-                                <img src="<?php echo $weblink; ?>assets/img/3.jpeg">
+                                <img src="<?php echo $weblink; ?>assets/img/2.jpeg">
                             </div>
                         </div>
                     </div>
@@ -58,13 +53,13 @@
                     <div class="info__wrapper">
                         <div class="info current--info">
                             <!-- <span class="text name">Maldives</span> -->
-                            <h5 class="text location">Maldives</h5>
-                            <p class="text description">Turquoise sea, white sand and an amazing diverse underwater world – simply - Eden on Earth</p>
+                            <h5 class="text location">Sri Lanka</h5>
+                            <p class="text description">A harmonious home to wild elephants, turtles and whales with fascinating nature adorned with waterfalls, tea plantations and golden beaches</p>
                         </div>
                         <div class="info next--info">
                             <!-- <h1 class="text name">Highlands</h1> -->
-                            <h5 class="text location">Sri Lanka</h5>
-                            <p class="text description">A harmonious home to wild elephants, turtles and whales with fascinating nature adorned with waterfalls, tea plantations and golden beaches</p>
+                            <h5 class="text location">Maldives</h5>
+                            <p class="text description">Turquoise sea, white sand and an amazing diverse underwater world – simply - Eden on Earth</p>
                         </div>
                         <div class="info previous--info">
                             <!-- <h1 class="text name">Highlands</h1> -->
@@ -77,13 +72,13 @@
         </div>
         <div class="app__bg">
             <div class="app__bg__image current--image">
-                <img src="<?php echo $weblink; ?>assets/img/1.jpeg">
+                <img src="<?php echo $weblink; ?>assets/img/3.jpeg">
             </div>
             <div class="app__bg__image next--image">
-                <img src="<?php echo $weblink; ?>assets/img/2.jpeg">
+                <img src="<?php echo $weblink; ?>assets/img/1.jpeg">
             </div>
             <div class="app__bg__image previous--image">
-                <img src="<?php echo $weblink; ?>assets/img/3.jpeg">
+                <img src="<?php echo $weblink; ?>assets/img/2.jpeg">
             </div>
         </div>
     </div>

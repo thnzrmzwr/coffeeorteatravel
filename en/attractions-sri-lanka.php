@@ -48,4 +48,4 @@ $details = PageDetails($db_elegantp,40); ?>
 </div>
 
 
-<?php ncfooter(3, $menu, $weblink); ?>
+<?php ncfooter(3, $menu,$weblink, $footerData); ?>

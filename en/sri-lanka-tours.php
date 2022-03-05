@@ -43,7 +43,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
                             </div>
                             <div class="card-footer bg-secondary">
                                 <span class="ncs-small">From: <span class="fw-bold">US$<?= $tourPackagesSLround[$i]['TourPackagePrice'];?></span></span>
-                                <a href="<?= $weblink.'tour-package-single.php?tourpackageid='.$tourPackagesSLround[$i]['TourPackageID'] ?>" class="btn btn-outline-warning btn-sm float-end">View Details</a>
+                                <a href="<?= $inside_pages['Tour Package'].'/'.$tourPackagesSLround[$i]['TourPackageID'] ?>" class="btn btn-outline-warning btn-sm float-end">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card h-full bg-theme-color text-light border-light" style="">
                     <div class="card-body flex-center">
-                        <a class="text-decoration-none text-light" href="<?php echo $inside_pages['Resorts Archive'].'?country-resort='.$CountryID.'&r-tag='.$mPtags[$i]['TagsTitle']; ?>">
+                        <a class="text-decoration-none text-light" href="<?php echo $inside_pages['Resorts Archive'].'?/'.$CountryID.'/'.$mPtags[$i]['TagsTitle']; ?>">
                             <h5 class="card-title text-center lh-lg">Create Your Own Holiday...</h5>
                         </a>
                     </div>
@@ -80,7 +80,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
                         <span class="ncs-small"><?= substr_replace($att[$i]['AttractionText'], "...", 200);?></span>
                     </div>
                     <div class="card-footer bg-secondary">
-                        <a href="<?= $weblink.'beach-stay-sl.php?atid='.$att[$i]['AttractionID']; ?>" class="btn btn-outline-warning btn-sm float-end">View Details</a>
+                        <a href="<?= $inside_pages['Beach Stay'].'/'.$att[$i]['AttractionID']; ?>" class="btn btn-outline-warning btn-sm float-end">View Details</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
         <div class="row py-3">
             <div class="col-12 col-sm-4 px-0">
                 <div class="card bg-dark text-light">
-                    <img src="assets/img/pexels-markus-spiske-3970330.jpg" class="card-img h-270" alt="...">
+                    <img src="<?= $weblink ?>assets/img/pexels-markus-spiske-3970330.jpg" class="card-img h-270" alt="...">
                     <div class="card-img-overlay dark-blend flex-center">
                         <h5 class="card-title fw-bold text-center">Actual pandemic restrictions on unesco</h5>
                     </div>
@@ -115,7 +115,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
             </div>
             <div class="col-12 col-sm-4 px-0">
                 <div class="card bg-dark text-light">
-                    <img src="assets/img/pexels-oscar-chan-2833379.jpg" class="card-img h-270" alt="...">
+                    <img src="<?= $weblink ?>assets/img/pexels-oscar-chan-2833379.jpg" class="card-img h-270" alt="...">
                     <div class="card-img-overlay dark-blend flex-center">
                         <h5 class="card-title fw-bold text-center">Actual pandemic restrictions during flights</h5>
                     </div>
@@ -123,7 +123,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
             </div>
             <div class="col-12 col-sm-4 px-0">
                 <div class="card bg-dark text-light">
-                    <img src="assets/img/pexels-kanishka-ranasinghe-2751667.jpg" class="card-img h-270" alt="...">
+                    <img src="<?= $weblink ?>assets/img/pexels-kanishka-ranasinghe-2751667.jpg" class="card-img h-270" alt="...">
                     <div class="card-img-overlay dark-blend flex-center">
                         <h5 class="card-title fw-bold text-center">Actual pandemic situation and visa</h5>
                     </div>
@@ -146,7 +146,7 @@ $att = ListOfAttractionDetailsSmartSql($db_elegantp,"a.fldCountryID=183 AND a.fl
 
     </div>
 </div>
-<?php ncfooter(3, $menu, $weblink); ?>
+<?php ncfooter(3, $menu,$weblink, $footerData); ?>
 <script>
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({

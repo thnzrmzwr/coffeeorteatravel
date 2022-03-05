@@ -6,10 +6,13 @@ $gbed = [0=>"N/A",31=>"1C",32=>"2C",33=>"3C",34=>"4C",35=>"5C",36=>"6C",37=>"7C"
 
 //Program to display current page URL.
  $weblink = $WEBSITEDOMAIN.'/en/';
- $menu = ['Home'=>'#', 'Our Stories'=>'our-stories.php', 'About us'=>'about-us.php', 'Tours'=>['toursSub', '#', [['Maldives Tours','maldives-tours.php'],['Sri Lanka Tours','sri-lanka-tours.php']]], 'Next Trips'=>'next-trips.php', 'Contact us'=>'contact-us.php'];
- $inside_pages = ['Create your own holiday'=>'create-your-holiday.php', 'Sri Lanka Attractions'=>'attractions-sri-lanka.php', 'Resorts Archive'=>'resorts-archive.php', 'Maldives Attractions'=>'attractions-maldives.php'];
+ $weblinkClean = $WEBSITEDOMAIN.'/';
+ $menu = ['Home'=>$weblinkClean, 'Our Stories'=>$weblinkClean.'our-stories', 'About us'=>$weblinkClean.'about-us', 'Tours'=>['toursSub', '#', [['Maldives Tours',$weblinkClean.'maldives-tours'],['Sri Lanka Tours',$weblinkClean.'sri-lanka-tours']]], 'Next Trips'=>$weblinkClean.'next-trips', 'Contact us'=>$weblinkClean.'contact-us'];
+ $inside_pages = ['Create your own holiday'=>$weblinkClean.'create-your-holiday.php', 'Sri Lanka Attractions'=>$weblinkClean.'attractions/sri-lanka', 'Resorts Archive'=>$weblinkClean.'resorts', 'Resort'=>$weblinkClean.'resort', 'Maldives Attractions'=>$weblinkClean.'attractions/maldives', 'Tour Category'=>$weblinkClean.'tour-category', 'Tour Package'=>$weblinkClean.'tour-package', 'Beach Stay'=>$weblinkClean.'sri-lanka-beach-stay'];
+ $footerData = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldTourPackageCategoryIDs LIKE '%24%'",$GROUPBY=null,$ORDERBY=null,$LIMIT=null);
 
 function ncheader($page_index, $menu, $weblink){ 
+ $weblinkClean = 'https://www.coffeeorteatravel.com/';
 include $_SERVER['DOCUMENT_ROOT'].'/config/include.config.php';
 $specific = [0,3,8];?>
 <!DOCTYPE html>
@@ -43,7 +46,7 @@ $specific = [0,3,8];?>
         <hr class="text-ncs-light mt-0">
         <nav class="navbar navbar-dark navbar-expand-lg pt-0 px-xl-5 px-lg-0 col-12">
             <div class="container-fluid px-sm-3 px-md-5">
-                <a class="navbar-brand" href="<?= $weblink; ?>">
+                <a class="navbar-brand" href="<?=  $weblinkClean ?>">
                     <img class="logo" src="<?= $weblink; ?>assets/img/logo-white.png" alt="" width="30" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mob-menu" >
@@ -56,7 +59,7 @@ $specific = [0,3,8];?>
                             if(!is_array($link)){
                                 echo '<li class="nav-item px-1"><a class="nav-link'; 
                                 echo($page_index==$x) ? ' active" aria-current="page"': '"';
-                                echo 'href="'.$weblink.$link.'">'.$item.'</a></li>';
+                                echo 'href="'.$link.'">'.$item.'</a></li>';
                             }else{ ?>
                                 <li class="nav-item px-1 dropdown">
                                     <a class="nav-link <?php echo($page_index==$x) ? 'active ': ''; ?>dropdown-toggle" href="<?php echo $link[1]; ?>" id="<?php echo $link[0]; ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,14 +82,16 @@ $specific = [0,3,8];?>
     </header>
 <?php } ?>
 
+
 <!-- footer -->
-<?php function ncfooter($page_index,$menu, $weblink){ 
+<?php function ncfooter($page_index,$menu, $weblink, $tourPackages){
+$weblinkClean = 'https://www.coffeeorteatravel.com/';
 include $_SERVER['DOCUMENT_ROOT'].'/config/include.config.php';
 $specific = [0,3,8]; ?>
     <!-- mobile menu -->
     <div class="offcanvas bg-theme-color text-ncs-light offcanvas-start" tabindex="-1" id="mob-menu" aria-labelledby="mob-menuLabel">
         <div class="offcanvas-header">
-            <a class="navbar-brand ms-2" href="<?= $weblink; ?>">
+            <a class="navbar-brand ms-2" href="<?= $weblinkClean; ?>">
                 <img class="logo" src="<?= $weblink; ?>assets/img/logo-white.png" alt="" width="20" height="15">
             </a>
             <h5 class="d-none text-light fw-bolder h5 text-uppercase" id="mob-menuLabel">Coffee or Tea</h5>
@@ -96,10 +101,19 @@ $specific = [0,3,8]; ?>
             <nav class="nav flex-column">
                 <?php $x=0;
                     foreach($menu as $item=>$link){
-                        echo '<a class="nav-link fs-4 fw-bolder';
-                        echo($page_index==$x) ? ' text-light"': ' text-ncs-light"';
-                        echo 'href="'.$weblink.$link.'">'.$item.'</a>';
-                        $x++;
+                        if(!is_array($link)){
+                            echo '<a class="nav-link fs-4 text-ncs-light fw-bolder'; 
+                            echo($page_index==$x) ? ' active" aria-current="page"': '"';
+                            echo 'href="'.$link.'">'.$item.'</a>';
+                        }else{
+                            echo '<a class="nav-link dropdmm text-ncs-light fs-4 fw-bolder'; 
+                            echo($page_index==$x) ? ' active" aria-current="page"': '"';
+                            echo 'href="#">'.$item.'</a><span class="height0 d-none">';
+                            for($i=0; count($link[2])>$i; $i++){ 
+                                echo '<a class="nav-link fs-5 fw-bolder text-ncs-light ms-3" href="'.$link[2][$i][1].'">'.$link[2][$i][0].'</a>';
+                            }
+                            echo '</span>';
+                        } 
                     } ?>
             </nav>
         </div>
@@ -109,7 +123,7 @@ $specific = [0,3,8]; ?>
     <div class="h-50p"></div>
     <div class="row px-5 pt-5">
         <div class="col-lg-4 col-md-6 px-0 px-md-4 px-lg-5 py-3">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?=  $weblinkClean ?>">
                 <img class="logo" src="<?php echo $weblink; ?>assets/img/logo-white.png" alt="" width="30" height="24">
             </a>
             <p class="text-ncs-light mt-2">
@@ -123,7 +137,14 @@ $specific = [0,3,8]; ?>
             </div>
             <?php 
                 foreach($menu as $itm=>$link){
-                    echo '<p class="text-capitalize fw-normal"><i class="far fa-play me-2"></i><a class="text-ncs-light text-decoration-none" href="'.$link.'">'.$itm.'</a></p>';
+                    if(!is_array($link)){
+                        echo '<p class="text-capitalize fw-normal"><i class="fas fa-play me-2"></i><a class="text-ncs-light text-decoration-none" href="'.$link.'">'.$itm.'</a></p>';
+                    }else{
+
+                        for($l=0; count($link[2])>$l; $l++){
+                            echo '<p class="text-capitalize fw-normal"><i class="fas fa-play me-2"></i><a class="text-ncs-light text-decoration-none" href="'.$link[2][$l][1].'">'.$link[2][$l][0].'</a></p>';
+                        }
+                    }
                 }
             ?>
         </div>
@@ -132,14 +153,14 @@ $specific = [0,3,8]; ?>
             <div class="pe-p60">
                 <hr class="text-ncs-light">
             </div>
-            <div class="mb-2">
-                <span class="text-capitalize fw-normal d-inline-block mb-2"><i class="far fa-play me-2"></i><a class="text-ncs-light text-decoration-none" href="/">28 Jan 2022</a></span>
-                <p class="text-ncs-light">Maldives Natural islands/ snorkeling tour</p>
-            </div>
-            <div class="mb-2">
-                <span class="text-capitalize fw-normal d-inline-block mb-2"><i class="far fa-play me-2"></i><a class="text-ncs-light text-decoration-none" href="/">21 Feb 2022</a></span>
-                <p class="text-ncs-light">Maldives Natural islands/ snorkeling tour</p>
-            </div>
+            <?php for($i=0; count($tourPackages)>$i; $i++){ ?>
+                <div class="mb-2">
+                    <a class="text-ncs-light text-decoration-none" href="<?= $tourPackages[$i]['TourPackageID'] ?>">
+                        <span class="text-capitalize fw-normal d-inline-block mb-2"><i class="fas fa-play me-2"></i> Exp: <?= $tourPackages[$i]['PackageExpireDate'] ?></span>
+                        <p class="text-ncs-light"><?= $tourPackages[$i]['TourPackageTitle'].' - '.$tourPackages[$i]['TourPackageCountryName'] ?></p>
+                    </a>
+                </div>
+            <?php } ?>
         </div>
         <div class="col-lg-3 col-md-6 py-3 px-0 px-md-3 px-lg-4">
             <p class="h5 fw-bold text-light">Contacts</p>
@@ -174,6 +195,24 @@ $specific = [0,3,8]; ?>
     <script src="<?= $weblink; ?>assets/js/owl.carousel.min.js"></script>
 <?php } ?>
     <script src="<?php echo $weblink; ?>assets/js/ncScript.js"></script>
+    <script>
+        let drpds = document.querySelectorAll('.dropdmm');
+        for(let i=0; drpds.length>i; i++){
+            drpds[i].addEventListener('click', Event=>{
+                if(drpds[i].nextElementSibling.classList.contains('animate-reveal')){
+                    drpds[i].nextElementSibling.classList.remove('animate-reveal');
+                    setTimeout(function(){
+                        drpds[i].nextElementSibling.classList.add('d-none');
+                    },1000);
+            }else{
+                    drpds[i].nextElementSibling.classList.remove('d-none');
+                    setTimeout(function(){
+                        drpds[i].nextElementSibling.classList.add('animate-reveal');
+                    },100);
+                }
+            });
+        }
+    </script>
 </body>
 </html>
 <?php } ?>

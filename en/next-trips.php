@@ -86,4 +86,4 @@ $tourPackagesSL = GetTourPackageSafSmartSQl($db_elegantp,$SmartSQl = "tp.fldCoun
         </div>
     </div>
 </div>
-<?php ncfooter(4, $menu, $weblink); ?>
+<?php ncfooter(4, $menu,$weblink, $footerData); ?>

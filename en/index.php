@@ -3,14 +3,14 @@
 $paged = PageDetails($db_elegantp,1);
 $para = explode("</p>", $paged['PageTextHTML']); ?>
 <div class="container-fluid bg-coffee">
-    <div class="row bg-theme-color-6" style="height:80vh">
-        <iframe src="<?php echo $weblink; ?>slider.php" frameborder="0" width="100%" height="100%" class="iframe_slider px-0"></iframe>
-    </div>
-    <div class="row py-5 nc-1300 py-xl-13 bg-theme-color-7 ps-xl-5 ps-lg-0">
-        <div class="col text-light text-center text-lg-start ms-lg-2 ms-xl-3 ms-xxl-4 py-lg-5">
-            <span>Maldives & Sri lanka</span>
-            <h2 class="mt-1 lh-base fw-bold">Keďže coffe or tea zároveň znamená aj vedieť si správne vybrať... mame tu našu aktuálnu ponuku</h2>
-            <a href="<?php echo $menu['Next Trips']; ?>" class="btn btn-outline-light mt-3">Explore</a>
+    <div class="row bg-theme-color-7" style="align-items:center;">
+        <div class="col-xxl-3 text-center text-xxl-start text-light px-3 px-sm-5 px-xxl-3 py-5 py-xxl-2 order-2 order-xxl-1">
+            <span>Choose your dream destination</span>
+            <h2 class="mt-1 lh-base fw-bold h4">Pick your tailor-made holiday or beach stay and our travel experts will take care of every tiny detail for you. You can just order a cup of coffee or tea and enjoy the mystic and majestic experience the little exotic island will cast on you.</h2>
+            <a href="https://www.coffeeorteatravel.com/en/contact-us.php" class="btn btn-outline-light mt-3">Explore</a>
+        </div>
+        <div class="col-12 col-xxl-9 px-0 order-1 order-xxl-2" style="height:80vh;">
+            <iframe src="<?php echo $weblink; ?>slider.php" frameborder="0" width="100%" height="100%" class="iframe_slider px-0"></iframe>
         </div>
     </div>
     <div class="row pt-5 bg-theme-color-6 text-ncs-light ps-xl-5 ps-lg-0" id="about-us">
@@ -172,7 +172,7 @@ $para = explode("</p>", $paged['PageTextHTML']); ?>
     </div>
 
 </div>
-<?php ncfooter(0, $menu, $weblink); ?>
+<?php ncfooter(0, $menu,$weblink, $footerData); ?>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <script>
 setTimeout(() => {
